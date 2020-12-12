@@ -4,20 +4,34 @@
   <meta charset="UTF-8" />
   <script src="https://kit.fontawesome.com/aa50a47219.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
-
-
-  <title></title>
+  <title>開発スキルアップ</title>
 </head>
 
 <body>
 <header>
 <div>
-<a>MY Site（画像予定）</a>
-<a>Portfolio</a>
-<a>Feature</a>
-<a>Profile</a>
-<a>Contact</a>
+<img class="logo" src="img/logo.png" alt="ロゴ">
+<div id="sp-menu">
+  <h2>MENU</h2>
+  <ul>
+    <li><a href="#Top">Top</a></li>
+    <li><a href="#Portfolio">Portfolio</a></li>
+    <li><a href="#Feature">Feature</a></li>
+    <li><a href="#Profile">Profile</a></li>
+    <li><a href="#Contact">Contact</a></li>
+  </ul>
 </div>
+
+<div id="hm-icon">
+  <a class="menu-trigger" href="#">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </header>
 
 <main>
@@ -28,8 +42,8 @@
 </div>
 </div>
 
-<div class="container">
-<h1 class="heading-title">Portfolio</h1>
+<div class="container"><div id="Portfolio"></div>
+<h1 class="heading-title"></a>Portfolio</h1>
 <p class="text"> It is a long established fact that a reader will be distracted by the readable<br>
     content of a page when looking at its layout.<br>
     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
@@ -43,13 +57,15 @@
 </div>
 </div>
 
-<div class="container">
+<div class="container"><div id="Feature"></div>
 <h1 class="heading-title">Feature</h1>
 <p class="text">It is a long established fact that a reader will be distracted by the readable<br>
    content of a page when looking at its layout.<br>
    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
 
-<div class="Strength">
+
+<div id="Strength">
+  <i class="fas fa-fast-backward"></i>
  <h3 class="Strength-title">Strength1</h3>
 <p class="Strength-text">Contrary to popular belief, Lorem Ipsum<br>is not simply random text. It has roots<br>
   in a piece of classical Latin literature<br>from 45 BC, making it over 2000 years<br>
@@ -57,6 +73,7 @@
   Virginia, looked up one of the more<br>obscure Latin words, consectetu</p>
 </div>
 <div class="Strength">
+  <i class="fas fa-fast-backward"></i>
   <h3 class="Strength-title">Strength2</h3>
   <p class="Strength-text">Contrary to popular belief, Lorem Ipsum<br>is not simply random text. It has roots<br>
     in a piece of classical Latin literature<br>from 45 BC, making it over 2000 years<br>
@@ -64,6 +81,7 @@
     Virginia, looked up one of the more<br>obscure Latin words, consectetu</p>
 </div>
 <div class="Strength">
+  <i class="fas fa-fast-backward"></i>
   <h3 class="Strength-title">Strength3</h3>
     <p class="Strength-text">Contrary to popular belief, Lorem Ipsum<br>is not simply random text. It has roots<br>
       in a piece of classical Latin literature<br>from 45 BC, making it over 2000 years<br>
@@ -72,7 +90,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container"><div id="Profile"></div>
   <h1 class="heading-title">Profile</h1>
 <p>It is a long established fact that a reader will be distracted by the readable<br>
   content of a page when looking at its layout.<br>
@@ -97,7 +115,7 @@
 </div>
 </div>
 
-<div class="container">
+<div class="container"><div id="Contact"></div>
   <h1 class="heading-title">Contact</h1>
   <p>It is a long established fact that a reader will be distracted by the readable<br>
     content of a page when looking at its layout.<br>
