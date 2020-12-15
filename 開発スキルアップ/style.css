@@ -151,6 +151,11 @@ header {
   background-image: url(img/webcamp-mother.png);
 }
 
+.Strength-box {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .Strength {
   display: inline-block;
   text-align: center;
@@ -220,5 +225,9 @@ footer {
     height: 0;
     background-image: none;
     margin: 0;
+  }
+
+  .boxes {
+    flex-direction: column;
   }
 }
