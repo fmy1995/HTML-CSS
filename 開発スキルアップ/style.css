@@ -192,3 +192,14 @@ footer {
   padding-top: 20px;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .main-visual {
+    height: 650px;
+    color: #fff;
+    text-align: center;
+    background-image: url(img/code.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
